@@ -7,13 +7,13 @@ import { Component, OnInit, Input, Injector } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  @Input() imagePath:string="assets/images/ProfileImage.png";
+  @Input() imagePath:string="";
   @Input() title="John Doe";
   @Input()  text="Some Text";
   @Input()  btnText="Show values";
   //D:\Repo_WebComponent\Repo_WebComponent\web-component2\src\assets\images\ProfileImage.png
   
-  @Input() imgFileName:string = "ProfileImage.png";
+  //@Input() imgFileName:string = "ProfileImage.png";
 
   public profiles=
     {
